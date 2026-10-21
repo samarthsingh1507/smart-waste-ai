@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+env/
+.venv/
+
+# Environment Variables & Local Config
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+!backend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Frontend build
+frontend/dist/
+frontend/dist-ssr/
+
+# SQLite Databases & temporary files
+*.db
+*.sqlite
+*.sqlite3
+smart_waste.db
+test_smart_waste.db
+
+# Dynamic User Uploads (keep directory structure)
+backend/uploads/upload_*
+backend/uploads/dish_*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
